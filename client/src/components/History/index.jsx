@@ -19,7 +19,7 @@ const History = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const response = await axios.get("https://server-production-de1a.up.railway.app/history");
+        const response = await axios.get("http://distance-calculator.railway.internal/history");
         if (response.data.success) {
           setHistory(response.data.queries);
           setError(null);
