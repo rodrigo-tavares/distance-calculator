@@ -24,7 +24,7 @@ const DistanceCalculator = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://distance-calculator.railway.internal/calculate",
+        "https://server-production-de1a.up.railway.app/calculate",
         { source, destination }
       );
       if (response.data.success) {
