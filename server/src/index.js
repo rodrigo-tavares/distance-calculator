@@ -15,6 +15,11 @@ app.use(
     origin: "http://localhost:3000",
   })
 );
+app.use(
+  cors({
+    origin: "https://fascinating-centaur-1a5f08.netlify.app/",
+  })
+);
 
 let db = new sqlite3.Database(DATABASE);
 
