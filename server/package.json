@@ -1,0 +1,22 @@
+{
+  "name": "distance-calculator-backend",
+  "version": "1.0.0",
+  "description": "A application to query distance between two addresses",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "author": "Rodrigo Tavares",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
