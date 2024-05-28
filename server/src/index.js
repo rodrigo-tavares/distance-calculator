@@ -17,7 +17,7 @@ app.use(
 );
 app.use(
   cors({
-    origin: "https://fascinating-centaur-1a5f08.netlify.app/",
+    origin: "https://client-production-b50a.up.railway.app/",
   })
 );
 
