@@ -1,7 +1,10 @@
-# Distance Query Web Application
+# Distance Calculator Web Application
 
 ## Description
 This is a simple web application that allows users to query the distance in kilometers between two addresses. The application features a frontend interface for entering source and destination addresses, calculates the distance using the Nominatim API, and stores the historical queries. Users can also view the history of their queries.
+
+![distance](https://github.com/rodrigo-tavares/distance-calculator/assets/18193620/ac1488b5-3daa-4f20-94e8-99e771bea404)
+
 
 ## Features
 - Query Distance: Users can enter a source and destination address and receive the distance in kilometers.
@@ -41,26 +44,27 @@ docker-compose.yml
 - Docker
 - Docker Compose
 
-Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone git@github.com:rodrigo-tavares/distance-calculator.git
 cd distance-calculator
 ```
 
-Step 2: Build and Run the Containers
+### Step 2: Build and Run the Containers
 ```bash
 docker-compose up --build
 ```
 
-Step 3: Access the Application
+### Step 3: Access the Application
 
-Frontend: Open your browser and navigate to http://localhost:3000
-Backend: The server runs on http://localhost:3001
+Frontend: Open your browser and navigate to `http://localhost:3000`.
+
+Backend: The server runs on `http://localhost:3001`.
 
 ## API Reference
 - Nominatim API: Used for geocoding addresses to latitude and longitude.
-- Documentation: Nominatim API
+    - Documentation: [Nominatim API](https://nominatim.org/release-docs/develop/api/Search/)
 
 ## License
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
