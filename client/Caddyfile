@@ -24,12 +24,12 @@
 	respond /health 200
 
 	# serve from the 'build' folder (react-scripts builds into the 'build' folder)
-	root * build
+	root * dist
 
 	# enable gzipping responses
 	encode gzip
 
-	# serve files from 'build'
+	# serve files from 'dist'
 	file_server
 
 	# if path doesn't exist, redirect it to 'index.html' for client side routing
